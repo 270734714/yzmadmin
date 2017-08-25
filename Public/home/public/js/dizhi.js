@@ -1,0 +1,14 @@
+$(function(){
+	$('.page_btn').click(function(){
+		$('.xubox_layer').show();
+		$('.xubox_shade').show();
+	});
+	$('.xubox_setwin').click(function(){
+		$('.xubox_layer').hide();
+		$('.xubox_shade').hide();
+	});
+	$('.xubox_shade').click(function(){
+		$('.xubox_layer').hide();
+		$(this).hide();
+	})
+});

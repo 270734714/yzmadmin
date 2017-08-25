@@ -1,0 +1,265 @@
+*{
+	font-size: 14px;
+}
+.info-title{
+	width: 100%;
+    height: 46px;
+    background: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+.info-title ul li {
+    float: left;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    line-height: 1.5;
+}
+.info-title ul li.active {
+    border-top: 3px solid #22c233;
+    color: #22c233;
+    background: #fff;
+}
+
+.remind-tip{
+	width: 96%;
+    height: 38px;
+    font-size: 14px;
+    color: #666;
+    line-height: 38px;
+    text-align: center;
+    margin: 20px 2%;
+    border: 1px solid #ffab00;
+    background: #fefee6;
+}
+.remind-tip>span:first-child {
+    color: #ffab00;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.remind-tip .gift-tip {
+    color: #22c233;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+.geting-gift-btn {
+    padding: 4px 25px;
+    background: #eee;
+    color: #ccc;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.code_input>input {
+    font-size: 12px;
+    vertical-align: middle;
+    padding: 0 10px;
+    height: 24px;
+    border: 1px solid #eaeaea;
+}
+.code_input .identify_img {
+    vertical-align: middle;
+    height: 26px;
+    margin-left: -5px;
+    margin-top: -1px;
+    cursor: pointer;
+    display: inline;
+}
+.remind-tip .sure-get-btn {
+    padding: 4px 25px;
+    background: #ff8800;
+    color: #fff;
+    margin-left: 10px;
+}
+input:focus{
+	outline-width: 0px;
+}
+.code_input{
+	display: none;
+}
+ .remind-tip > .gift-detail {
+    text-align: left;
+    line-height: 20px;
+    padding: 10px;
+    width: 290px;
+    height: auto;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #ffdcaf;
+    background: #fff;
+    position: relative;
+    top: 8px;
+    margin-left: 49%;
+    z-index: 100;
+}
+.triangle-up-border {
+    position: absolute;
+    top: -24px;
+    left: 135px;
+    height: 0;
+    width: 0;
+    z-index: 100;
+    overflow: hidden;
+    border-width: 12px;
+    border-color: transparent transparent #ffdcaf transparent;
+    border-style: dashed dashed solid dashed;
+}
+.triangle-up {
+    position: absolute;
+    top: -20px;
+    left: 137px;
+    height: 0;
+    width: 0;
+    z-index: 100;
+    overflow: hidden;
+    border-width: 10px;
+    border-color: transparent transparent #fff transparent;
+    border-style: dashed dashed solid dashed;
+}
+
+/*开始*/
+.hide{
+	display: none;
+}
+.show-and-edit {
+    width: 96%;
+    height: auto;
+    margin: 10px 2%;
+    font-size: 14px;
+}
+.show-and-edit tr {
+    height: 50px;
+}
+.show-and-edit .head-img {
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    position: absolute;
+    left: 75%;
+    top: 280px;
+}
+.show-and-edit .head-img img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+.show-and-edit .head-img p {
+    font-size: 14px;
+    text-align: center;
+}
+.show-and-edit .head-img p a {
+    color: #22c233;
+}
+.show-and-edit tr .title-name {
+    width: 100px;
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+}
+.show-and-edit tr .title-val {
+    padding: 0 20px;
+}
+.show-and-edit tr .input-val {
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.input-val .fill-box {
+    width: 378px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0 0 10px;
+}
+.show-and-edit .name-tip {
+    height: 25px;
+}
+.show-and-edit tr .title-name {
+    width: 100px;
+    text-align: right;
+    color: #666;
+}
+.name-tip .tip-style {
+    padding: 0 20px;
+    color: #999;
+    font-size: 14px;
+}
+.main .err_tip {
+    background: url(../img/error.png) no-repeat 0 0;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    display: none;
+}
+.input-val .modify-tel {
+    color: #22c233;
+    font-size: 14px;
+}
+.input-val .birth-input {
+    width: 110px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0 0 10px;
+}
+.input-val .province,.input-val .marry-status{
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+}
+.input-val .city {
+    width: 238px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0 0 10px;
+    margin-left: 32px;
+    font-size: 14px;
+}
+.J_button div {
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.J_button .J_edit {
+    margin: 10px 100px;
+    background: #ff8800;
+    color: #fff;
+}
+.J_button .J_save {
+    margin: 10px 10px 10px 55px;
+    float: left;
+    background: #ff8800;
+    color: #fff;
+}
+.J_button .J_cancel {
+    margin: 10px;
+    width: 98px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    float: left;
+    background: #fff;
+    color: #999;
+    border: 1px solid #ddd;
+}
+.J_button .J_cancel:hover{
+    background: #ff8800;
+    color: #fff;
+}
+input:focus{
+	outline-width: 0px;
+}
+.input-val select:hover{
+	border-color:#666; 
+}
+.title-val .fill-tip{
+    color: #ccc;
+}
+.title-val a{
+    color: #22c333;
+}

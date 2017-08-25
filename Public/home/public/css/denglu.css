@@ -1,0 +1,437 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	font-family: "microsoft yahei",Tahoma,arial,宋体,sans-serif;
+}
+a{
+	text-decoration: none;
+	font-style: normal;
+	color: #404040;
+}
+ul{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+input{
+	outline-width:0px;
+}
+
+/*头部*/
+.header{
+	width: 100%;
+}
+.header-main{
+	width: 100%;
+	padding:20px 0;
+	display: inline-block;
+}
+.header-inner{
+	width: 1200px;
+	margin: 0 auto;
+	display:block;
+}
+.header-logo{
+	float: left;
+}
+.header-logo>a>img{
+	display: block;
+	height: 41px;
+}
+.header-phone{
+	float: right;
+}
+.header-phone>a>img{
+	display: block;
+	height: 41px;
+}
+/*中间内容*/
+.login{
+	width: 100%;
+	height: 560px;
+	background: url(../img/niupinzhi.jpg) no-repeat top center;
+}
+.content{
+	width: 1200px;
+	height: 560px;
+	margin: 0 auto;
+	position: relative;
+}
+.cent-link>a{
+	width: 1200px;
+	height: 560px;
+	display: block;
+}
+.login-content{
+	width: 460px;
+	height: 490px;
+	position: absolute;
+	top:30px;
+	right:40px;
+	background-color: #fff;
+	box-shadow: 0 1px 4px rgb(51,51,51,0.2);
+}
+.login-box{
+	width: 460px;
+	background-color: #fff;
+	display:inline-block;
+	position: relative;
+}
+.login-box form{
+	display: none;
+}
+.login-box form.qiehuanDL{
+	display: block;
+}
+.login-tab{
+	height: 45px;
+	margin-bottom: 15px;
+	line-height: 45px;
+	/*color: #fff;*/
+}
+.login-tab>li{
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: #89c86f;
+	background: #e6f7df;
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	position: relative;
+}
+.login-tab>li.cur{
+	color: #fff;
+	background: #43b413;
+}
+.login-tab>li>b{
+	width: 12px;
+	height: 4px;
+	position: absolute;
+	top:45px;
+	left: 48%;
+}
+.login-tab>li.cur>b{
+	width: 12px;
+	height: 4px;
+	position: absolute;
+	top:45px;
+	left: 48%;
+	background: url(../img/login_icon.png) no-repeat 0 0;
+}
+.login-tab-content{
+	padding-left: 65px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ededed;
+}
+.login-table td{
+	height: 44px;
+	line-height: 24px;
+}
+.login-table .login-top{
+	height: 24px;
+	line-height: 24px;
+}
+.input-div{
+	width: 330px;
+	border:1px solid #e0e0e0;
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+}
+input[type=text]{
+	width: 290px;
+	height: 22px;
+	line-height: 22px;
+	padding: 5px 0 5px 40px;
+	border: 0 none;
+	display: inline-block;
+}
+.line-1 input.tub{
+	background: url(../img/login_icon.png) no-repeat ;
+	background-position:12px -12px;
+}
+.input-div a.guoji{
+	position: absolute;
+	top:4px;
+	right:4px;
+	color:#2e9900;
+	line-height: 24px;
+}
+.input-div a.putong{
+	position: absolute;
+	top:4px;
+	right:4px;
+	color:#2e9900;
+	line-height: 24px;
+}
+input[type=password]{
+	width: 290px;
+	height: 22px;
+	line-height: 22px;
+	padding: 5px 0 5px 40px;
+	border: 0 none;
+	display: inline-block;
+	background: url(../img/login_icon.png) no-repeat;
+}
+.line-2 input{
+	background-position: 12px -52px;
+}
+.line-4 label{
+	color: #999;
+	font-family: "microsoft yahei";
+	vertical-align:middle;
+}
+.search-psw{
+	color: #666;
+	float: right;
+}
+.sub{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #f80;
+	text-align: center;
+	font-family: "microsoft yahei";
+	border:none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.login-table td.now-register{
+	line-height: 18px;
+	padding-top: 10px;
+}
+.now-register>a{
+	color: #f60;
+	text-decoration:underline;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+.now-register>p{
+	margin-top: 5px;
+	display: block;
+	line-height: 18px;
+}
+.now-register .use-card{
+	color: #39c34c;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: "microsoft yahei";
+}
+.login-bottom{
+	padding: 10px 0 0 65px;
+	color: #666;
+	line-height: 24px;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+}
+.login-bottom>p{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	margin-bottom: 10px;
+	color: #8c8c8c;
+	display: block;
+}
+.login-bottom ul{
+	display:inline-block;
+}
+.login-bottom li{
+	float: left;
+	margin: 0;
+	width:52px;
+	margin-right: 12px;
+	text-align: center;
+	/*display: block;*/
+}
+.login-bottom li>a{
+	display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 3px;
+    background: url(../img/login_theme.png);
+}
+.login-bottom li.qq>a{
+	background-position: -160px 0;
+}
+.login-bottom li.qq:hover>a{
+	background-position: -160px -40px;
+}
+.login-bottom li.sina>a{
+	background-position: 0 0;
+}
+.login-bottom li.sina:hover>a{
+	background-position: 0 -40px;
+}
+.login-bottom li>span{
+	display: inline-block;
+    text-align: center;
+    display: none;
+}
+.login-bottom li:hover>span{
+	display: block;
+}
+.change-btn{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 51px;
+    height: 53px;
+    cursor: pointer;
+    background: url(../img/login_theme.png) no-repeat 0 -83px;
+}
+/*动态登录；表单*/
+.input-div-left{
+	width: 120px;
+	float: left;
+	position: relative;
+	display:inline-block;
+	margin-right: 4px;
+}
+.zone-val{
+	width: 110px;
+	padding: 5px 0 5px 10px;
+	display: inline-block;
+	font-size: 12px;
+	background-color: #fff;
+	line-height: 22px;
+	position: relative;
+	cursor: pointer;
+}
+.zone-tri{
+	position: absolute;
+    top: 14px;
+    right: 8px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border: 4px transparent solid;
+    border-top: 4px #DDD solid;
+}
+.input-div-right{
+	width: 200px;
+	display: inline-block;
+	float: right;
+}
+.input-div-right input[type=text]{
+	padding-left: 5px;
+	width: 190px;
+}
+.line-10 input{
+	width: 190px;
+	background-position: 12px -52px;
+}
+.code-len{
+	display: inline-block;
+    border-left: 1px solid #e0e0e0;
+    background: #f9f9f9;
+    width: 95px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.login-code-wrap{
+	width: 460px;
+	height: 490px;
+	position: absolute;
+	top:30px;
+	right:40px;
+	background-color: #fff;
+	box-shadow: 0 1px 4px rgb(51,51,51,0.2);
+}
+.login-code-wrap .login-tab>li{
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	background: #43b413;
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	position: relative;
+}
+.login-box>a{
+	position: absolute;
+	top:17px;
+	right: 17px;
+	height: 14px;
+	color: #fff;
+}
+.login-tab-erweima{
+	padding-left: 150px;
+	padding-bottom: 20px;
+	border:0 none;
+}
+.login-tip{
+	height: 65px;
+	margin-top: 20px;
+}
+.login-weixin-box{
+	width: 164px;
+	height: 164px;
+	padding: 7px;
+	background: #fff;
+	margin-bottom: 15px;
+}
+.login-weixin-box>img{
+	border:1px solid rgb(242,242,242);
+}
+.login-tab-erweima p{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #666;
+}
+.login-tab-erweima p.shuaxin{
+	margin: 25px 0 0 35px;
+}
+p.shuaxin>a{
+	font-size: 16px;
+    color: #39c34c;
+    font-family: "microsoft yahei";
+    line-height: 20px;
+}
+p.shuaxin b{
+	display: inline-block;
+    width: 16px;
+    height: 20px;
+    margin-right: 7px;
+    vertical-align: middle;
+    background: url(../img/login_theme.png) no-repeat 0 -139px;
+}
+.pc-btn{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 51px;
+    height: 53px;
+    overflow: hidden;
+    z-index: 10;
+    cursor: pointer;
+    background: url(../img/login_theme.png) no-repeat -76px -83px;
+}
+
+
+
+.TN-footer{
+	width: 1000px;
+	/*height: 222px;*/
+	margin:25px auto;
+	/*background-color: #fcc;*/
+}
+.TN-footer p{
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	color: #777;
+}
+#TN-links{
+	margin-top: 10px;
+}
+#TN-links>a{
+	margin:0 5px;
+}
+.TN-footer p>a{
+	color: #777;
+}

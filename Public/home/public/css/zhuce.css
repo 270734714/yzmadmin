@@ -1,0 +1,390 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+	font-family: "microsoft yahei",Tahoma,arial,宋体,sans-serif;
+}
+a{
+	text-decoration: none;
+	font-style: normal;
+	color: #404040;
+}
+ul{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+input{
+	outline-width:0px;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: url(../img/register_bg.jpg) no-repeat center top;
+}
+/*头部*/
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	border-bottom:3px solid #2e9900;
+}
+.header-bg{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.logo{
+	height: 61px;
+	padding: 18px 0 0 ;
+}
+.logocon{
+	float: left;
+	margin-right: 15px;
+}
+.header-tip{
+	height: 47px;
+	padding-left: 20px;
+	border-left: 1px solid #efefef;
+	font-family: "microsoft yahei";
+	color: #333;
+	float: left;
+	position: relative;
+	top:10px;
+	font-size: 24px;
+}
+.allwrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-top{
+	height: 45px;
+	padding-top: 30px;
+	position: relative;
+}
+.main-top-left{
+	float: left;
+	color: #fff;
+}
+.main-top-left span{
+	width: 132px;
+	height: 65px;
+	color: #fff96f;
+	margin-left: 15px;
+	display: inline-block;
+	position: absolute;
+	top:-3px;
+	left: 311px;
+	background: url(../img/decoration.png) no-repeat;
+}
+.main-top-right{
+	float: right;
+	color: #fff;
+	font-size: 14px;
+}
+.main-top-right a{
+	border:1px solid #fff;
+	color: #fff;
+	margin-left: 10px;
+	padding: 1px 10px;
+}
+.user-reg{
+	width: 1200px;
+	height: 608px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
+}
+.r-f-title{
+	text-align: right;
+}
+.r-f-title a{
+	background: #43b413;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 22px;
+    display: inline-block;
+    position: relative;
+}
+.r-f-title a>span{
+	font-size: 22px;
+}
+.r-f-title a>span.jiao{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 7px;
+	left: 49%;
+	color:#43b413;
+	font-size: 12px;
+	display: block;
+}
+.reg-wrap{
+	width: 1200px;
+	height: 548px;
+}
+.mainpart{
+	width: 400%;
+	height: 548px;
+	position: relative;
+	left: 0;
+	/*overflow: hidden;*/
+}
+
+/*注册第一步*/
+form{
+	display: block;
+}
+.main-item{
+	padding-left: 320px;
+	padding-top: 65px;
+	width: 880px;
+	height: 483px;
+	background-color: #fff;
+	float: left;
+}
+.main-item li{
+	clear: both;
+    zoom: 1;
+    overflow: visible;
+}
+.step{
+	width: 560px;
+	height: 45px;
+	margin-bottom: 60px;
+	background: url(../img/step.png) no-repeat;
+}
+.step1{
+	background-position: 0 0;
+}
+.main-item>ul{
+	margin-left: 45px;
+}
+.input{
+	padding: 6px 0;
+	margin-right: 10px;
+	float: left;
+	vertical-align: middle;
+	font-family: "microsoft yahei";
+}
+.input label{
+	display: inline-block;
+    width: 75px;
+    color: #333;
+    font-size: 14px;
+    text-align: right;
+    height: 34px;
+    line-height: 28px;
+    padding: 2px 0;
+    /*floxat: left;*/
+}
+.input-left{
+	width: 120px;
+	/*float: left;*/
+	position: relative;
+	display:inline-block;
+	margin-right: 4px;
+	border:1px solid #dedede;
+}
+.zone-val{
+	width: 110px;
+	padding: 5px 0 5px 10px;
+	display: inline-block;
+	font-size: 12px;
+	background-color: #fff;
+	line-height: 22px;
+	position: relative;
+	cursor: pointer;
+}
+.zone-tri{
+	position: absolute;
+    top: 14px;
+    right: 8px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border: 4px transparent solid;
+    border-top: 4px #DDD solid;
+}
+.input .txt{
+	height: 28px;
+    line-height: 28px;
+    padding: 2px 3px;
+    padding-left: 15px;
+    border: 1px solid #dedede;
+    color: #666;
+    font-size: 14px;
+    width: 292px;
+}
+.input .shuru{
+	width: 162px;
+}
+.input-tip{
+	width: 313px;
+	height: 49px;
+    float: left;
+    vertical-align: middle;
+    position: relative;
+    line-height: 49px;
+}
+.input-tip-inner{
+	top: 50%;
+    vertical-align: middle;
+	width: 100%;
+	/*display: table-cell;*/
+}
+.input-tip span{
+	display: inline-block;
+    position: relative;
+    top: -50%;
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    background-position: 0 0;
+}
+.reg-mes{
+	width: 313px;
+	background: url(../img/register_themes.png) no-repeat;
+}
+span.txt{
+	display: inline-block;
+}
+.txt-yz{
+	width: 202px;
+    height: 28px;
+    line-height: 28px;
+    border: 0 none;
+    color: #999;
+    display: inline-block;
+}
+span img{
+	width: 81px;
+	height: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.err{
+	background: url(../img/err.png) no-repeat 0 50%;
+	padding-left: 25px;
+}
+.hide{
+	display: none;
+}
+.input-tip-inner span{
+	font-size: 14px;
+}
+.input-tip-inner span>a{
+	color: #43b313;
+	font-weight: 700;
+	font-size: 14px;
+}
+.jiaoyan{
+	width: 292px;
+}
+.input-huoqu{
+	/*line-height: 52px;*/
+    text-align: center;
+    display: inline-block;
+    padding: 9px 0;
+}
+.input-huoqu>a{
+	width: 112px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background: #fafafa;
+    border: 1px solid #e9e9e9;
+    border-radius: 1px;
+    display: inline-block;
+}
+.input .shuru{
+	position: relative;
+}
+.input .clickBtn{
+	display: inline-block;
+    border: 1px solid #ffba8c;
+    background: #fff3e6;
+    color: #f60;
+    padding: 2px 10px;
+    margin-left: 10px;
+}
+.triangle-left {
+    /*font-family: simsun;*/
+    font-size: 12px;
+    font-style: normal;
+    overflow: hidden;
+    position: absolute;
+    text-shadow: 0 0 2px #ccc;
+    height: 12px;
+    margin-top: -9px;
+    top: 12px;
+    width: 6px;
+    left: -6px;
+}
+.triangle-left em {
+    left: 1px;
+    color: #ffbb76;
+    position: absolute;
+    top: 0;
+    font-style: normal;
+}
+.triangle-left i {
+    left: 2px;
+    color: #fffcef;
+    text-shadow: none;
+    font-style: normal;
+    position: absolute;
+    top: 0;
+}
+li .reg-check {
+    padding-left: 75px;
+}
+.reg-check {
+    padding: 5px 0 0 120px;
+    color: #333;
+    margin-bottom: 15px;
+}
+#travel-info {
+    margin-right: 5px;
+}
+.agreement {
+    margin-left: 20px;
+    color: #43b313;
+    border-bottom: 1px dashed #43b313;
+}
+.reg-check{
+	padding: 5px 0 0 120px;
+	margin-bottom: 15px;
+}
+.login-btn{
+	width: 312px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	color: #fffeff;
+	border:0 none;
+	background: #ff9218;
+	border-radius: 2px;
+	display: inline-block;
+}
+/*注册第二步*/
+.main-item>ul.mima{
+	min-height: 220px;
+}
+.step2{
+	background-position: 0 -50px;
+}
+.queren{
+	height: 51px;
+}
+.pw-li{
+	height: 100px;
+	position: relative;
+}

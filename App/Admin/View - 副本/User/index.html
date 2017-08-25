@@ -1,0 +1,92 @@
+<layout name="yzm" />
+<ol class="breadcrumb">
+	<li><a href="#"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+	<li><a href="#">会员管理</a></li>
+	<li class="active">会员列表</li>
+
+	<button class="btn btn-primary btn-xs pull-right"><span class="glyphicon glyphicon-refresh"></span></button>
+</ol>
+
+<!-- 面版 -->
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> 批量删除</button>
+		
+		<p class="pull-right tots" >共有 {$tot} 条数据</p>
+		<form action="" class="form-inline pull-right">
+			<div class="form-group">
+				<input type="text" name="" class="form-control" placeholder="请输入你要搜索的内容" id="">
+			</div>
+			
+			<input type="submit" value="搜索" class="btn btn-success">
+		</form>
+
+
+	</div>
+	<table class="table-bordered table table-hover">
+		<th><input type="checkbox" name="" id=""></th>
+		<th>ID</th>
+		<th>NAME</th>
+		<th>PASS</th>
+		<th>注册时间</th>
+		<th>状态</th>
+		<th>操作</th>
+		<volist name="data" id="user">
+		<tr>
+			<td><input type="checkbox" name="" id=""></td>
+			<td>{$user[id]}</td>
+			<td><a href="javascript:" data-toggle="modal" data-target="#user_info" onclick="users({$user[id]})">{$user[name]}</a></td>
+			<td>{$user[pass]}</td>
+			<td>{:date('Y-m-d H:i:s',$user[time])}</td>
+			<if condition="$user[statu] eq 0">
+				<td><span class="btn btn-success">开启</span></td>
+			<else />
+				<td><span class="btn btn-danger">黑名单</span></td>
+
+			</if>
+			<td><a href="{:U('reset',array('id'=>$user['id']))}" class="glyphicon glyphicon-pencil"></a></td>
+
+		</tr>
+		</volist>
+
+		
+
+	</table>
+	<!-- 分页效果 -->
+	<div class="panel-footer">
+		<nav style="text-align:center;">
+			{$page}
+		</nav>
+
+	</div>
+</div>
+
+<script>
+	
+	function users(id){
+		$.post('{:U("ajax_user_info")}',{id:id},function(data){
+
+			if (data==0) {
+				$("#Users").html('<h1>该用户数据缺失</h1>');
+			}else{
+				$("#Users").html(data);
+				
+			}
+		});
+	}
+</script>
+
+	<div class="modal fade" id="user_info">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title">用户基本信息</h4>
+				</div>
+				<div class="modal-body" id="Users">
+					
+				</div>
+				
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->

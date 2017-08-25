@@ -1,0 +1,1970 @@
+.clearfix:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.wrapbody{
+	width: 100%;
+	background: #f0f2f5;
+	border-bottom: 1px solid #e7e7e7;
+}
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*导航条*/
+.search-nav{
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+.search-nav a:hover{
+	color: #2e9700;
+}
+.search-nav a{
+	color: #404040;
+	padding: 0 5px;
+}
+
+
+/*左边上面*/
+.main-content{
+	width: 1000px;
+	float: left;
+	display: block;
+}
+.mc-top{
+	padding: 20px;
+	border:1px solid #ddd;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.top-tit{
+	line-height: 32px;
+}
+.top-tit h1{
+	font-size: 22px;
+	font-family: "Microsoft Yahei";
+	font-weight: normal;
+}
+.tour-info{
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+.t-i-fl{
+	float: left;
+	color: #999;
+	font-family: "Microsoft Yahei";
+}
+.ti-tu{
+	width: 39px;
+	height: 14px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url(../img/tour_icon.png) no-repeat 0 -18px;
+}
+.ti-zi{
+	color: #f80;
+}
+.t-i-fr{
+	float: right;
+	color: #4e9700;
+}
+.t-i-fr a{
+	color: #4e9700;
+	font-family: "Microsoft Yahei";
+}
+.t-i-fr a:hover{
+	color: #FC893D;
+}
+.t-m-fl{
+	float: left;
+	width: 500px;
+}
+.tm-img{
+	height: 350px;
+	overflow: hidden;
+}
+.gallery{
+	height: 350px;
+}
+.gy-img{
+	width: 500px;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+}
+.gy-img-wrap img{
+	width: 500px;
+	height: 280px;
+}
+.gy-next{
+	width: 25%;
+	height: 280px;
+	position: absolute;
+	top:0;
+	right: 0;
+	display: block;
+	cursor: pointer;
+}
+.gy-next-img{
+	right:0;
+	width: 40px;
+	height: 50px;
+	opacity: 0.7;
+	background: url(../img/gallery_icon.png) no-repeat -47px -175px;
+	position: absolute;
+	top:43%;
+	display: none;
+}
+.gy-next:hover .gy-next-img{
+	display: block;
+}
+.gy-prev{
+	width: 25%;
+	height: 280px;
+	position: absolute;
+	top:0;
+	left: 0;
+	display: block;
+	cursor: pointer;
+}
+.gy-prev-img{
+	left :0;
+	width: 40px;
+	height: 50px;
+	opacity: 0.7;
+	background: url(../img/gallery_icon.png) no-repeat 0 -175px;
+	position: absolute;
+	top:43%;
+	display: none;
+}
+.gy-prev:hover .gy-prev-img{
+	display: block;
+}
+.tm-cal img{
+	width: 500px;
+	height: 350px;
+}
+.t-m-fr{
+	float: right;
+	width: 438px;
+	min-height: 672px;
+}
+.gy-nav{
+	height: 50px;
+	padding: 10px 0;
+	width: 498px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	position: relative;
+}
+.gy-back{
+	width: 24px;
+	height: 50px;
+	position: absolute;
+	top:10px;
+	left: 6px;
+	display: block;
+	background: url(../img/gallery_icon.png) no-repeat 5px -107px;
+	opacity: 0.6;
+	cursor: pointer;
+	z-index: 10;
+}
+.gy-forward{
+	width: 24px;
+	height: 50px;
+	position: absolute;
+	top:10px;
+	right: 6px;
+	display: block;
+	background: url(../img/gallery_icon.png) no-repeat 5px -46px;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.gy-thumbs{
+	width: 428px;
+	height: 50px;
+	margin-left: 37px;
+	overflow: hidden;
+}
+.gy-thumb-list{
+	width: 216px;
+	float: left;
+}
+.gy-thumb-list li{
+	float: left;
+	margin-right: 7px;
+	display: inline;
+	position: relative;
+}
+.gy-thumb-list li a{
+	width: 99px;
+	height: 50px;
+	display: block;
+	overflow: hidden;
+}
+.gy-thumb-list li a.gy-active{
+	width: 99px;
+	height: 46px;
+	border:2px solid #ff9216;
+}
+.gy-thumb-list li a.gy-active img{
+	opacity: 1;
+}
+.gy-thumb-list li a img{
+	width: 99px;
+	height: 50px;
+	display: block;
+	opacity: 0.7;
+}
+.t-m-fr{
+	width: 438px;
+	min-height: 672px;
+	float: right;
+	display: inline;
+	position: relative;
+}
+.t-m-fr dt{
+	text-align: right;
+	float: left;
+	display: inline;
+	width: 80px;
+	margin-right: 5px;	
+	font-family: "Microsoft Yahei";
+}
+.t-m-fr dd{
+	width: 350px;
+	display: inline;
+	float: left;
+}
+.tm-fr-intro{
+	width: 458px;
+	min-height: 50px;
+	padding-left: 20px;
+	margin-bottom: 7px;
+	position: relative;
+	left: -20px;
+	background: #fc893d;
+	padding-top: 10px;
+	line-height: 30px;
+	color: #fff;
+	font-family: "Microsoft Yahei";
+}
+.c-price dt{
+	top:5px;
+	position: relative;
+}
+.cx-price{
+	font-size: 18px;
+}
+.cx-price em{
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 5px;
+	font-style: normal;
+}
+.cx-sheng{
+	margin-right: 10px;
+}
+.c-price dd a{
+	display: inline-block;
+	text-decoration: underline;
+	color: #fecab0;
+}
+.tn-price{
+	margin-right: 20px;
+}
+.illustration{
+	display: inline-block;
+	text-decoration: underline;
+	color: #fecab0;
+	cursor: pointer;
+}
+.arrow{
+	width: 4px;
+	height: 100%;
+	padding-top: 3px;
+	background: url(../img/arrow.png) no-repeat 0 bottom;
+	position: absolute;
+	bottom: -3px;
+	right: -4px;
+}
+.t-m-fr>dl{
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+.t-m-fr>dl>dt{
+	color: #666;
+}
+.t-m-fr>dl>dd span{
+	background: url(../img/tour_icon.png) no-repeat;
+	margin-right: 5px;
+	height: 14px;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+}
+.t-m-fr>dl>dd span.comment{
+	width: 60px;
+	background-position: 0 -32px;
+}
+.t-m-fr>dl>dd span.youji{
+	width: 73px;
+	background-position:-64px -32px;
+}
+
+.line-des{
+	height: 50px;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	margin: 7px 0 0;
+}
+.line-des li{
+	float: left;
+	height: 50px;
+	display: inline;
+	text-align: center;
+}
+.line-des .f-1{
+	width: 144px;
+	border-right: 1px solid #f1f1f1;
+}
+.line-des li span{
+	display: block;
+    font-size: 18px;
+    color: #f80;
+    line-height: 28px;
+    cursor: pointer;
+}
+.line-des li i{
+	font-style: normal;
+    color: #999;
+    font-family: "Microsoft Yahei";
+}
+.line-des .f-2{
+	width: 165px;
+	border-right: 1px solid #f1f1f1;
+}
+.line-des .f-3{
+	width: 125px;
+}
+.order-mess{
+    background: #f4f5f6;
+    padding: 20px 0;
+    margin-bottom: 1px;
+    position: relative;
+}
+.order-mess dl{
+	margin-bottom: 12px;
+	line-height: 30px;
+	display: block;
+}
+.order-mess dl dt{
+	color: #666;
+	height: 24px;
+	line-height: 24px;
+}
+.select-box{
+    position: relative;
+    background: #f4f5f6;
+    float: left;
+    margin-top: 2px;
+    display:inline;
+}
+.select-con{
+	width: 314px;
+	height: 22px;
+    line-height: 22px;
+    border: 0px solid #ccc;
+    padding: 0 10px;
+}
+.select-date{
+	background: #fff;
+}
+.select-date .select-con{
+    border: 1px solid #ccc;
+    background: url(../img/tour_icon.png) no-repeat 318px -50px;
+}
+.select-date .select-result {
+    width: 300px;
+    height: 26px;
+    overflow: hidden;
+}
+.select-box .grey {
+    color: #bbb;
+}
+.select-box .select-list {
+	width: 334px;
+    position: absolute;
+    top: 24px;
+    left: 0;
+    border: 1px solid #ccc;
+    border-top: 0 none;
+    background: #fff;
+    display: none;
+    max-height: 158px;
+}
+.select-date:hover .select-list{
+	display: block;
+}
+.select-box .select-list li {
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.acquiesce {
+    color: #333;
+    margin-right: 5px;
+    float: left;
+    display: inline;
+}
+.acquiesce .num-lib {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 22px;
+    color: #999;
+    float: left;
+    background: #fff;
+}
+.acquiesce .num-lib .acquisitive {
+    cursor: pointer;
+    height: 10px;
+    margin: 8px 5px 1px 7px;
+    width: 10px;
+    background: url(../img/tour_icon.png) no-repeat -24px -53px;
+    display: inline-block;
+}
+.acquiesce .acute {
+    width: 33px;
+    height: 22px;
+    border: 0 none;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    line-height: 22px;
+    color: #333;
+    float: left;
+    background: #fff;
+}
+.acquiesce .num-lib .addiction {
+    cursor: pointer;
+    height: 10px;
+    margin-bottom: 1px;
+    margin-left: 3px;
+    margin-top: 8px;
+    width: 10px;
+    background: url(../img/tour_icon.png) no-repeat -40px -56px;
+    display: inline-block;
+}
+.acqu-name {
+    margin-right: 12px;
+    height: 26px;
+    line-height: 24px;
+    color: #333;
+    float: left;
+}
+.acerbity {
+    height: 24px;
+    line-height: 24px;
+    overflow-y: hidden;
+    width: 100px;
+    float: left;
+}
+.adjutant {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f80;
+}
+.order-now{
+	margin-left: 85px;
+}
+.u-order-qrcode{
+	margin-right: 10px;
+	float: left;
+	position: relative;
+}
+.order-qrcode-btn{
+	border:1px solid #ccc;
+	background: #fff;
+	height: 41px;
+	line-height: 41px;
+	padding: 0 10px;
+	color: #666;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	z-index: 2;
+}
+.order-qrcode-btn span{
+	font-size: 14px;
+}
+.icon-qrcode{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 4px;
+	background: url(../img/u_order_qrcode.png) no-repeat -8px -3px;
+}
+.icon-arrow{
+	width: 9px;
+	height: 5px;
+	position: absolute;
+	left: 43px;
+	bottom: 4px;
+	background: url(../img/u_order_qrcode.png) no-repeat -32px -11px;
+}
+.dropdown-panel{
+	position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 209px;
+    display: none;
+    z-index: 1;
+    top: 41px;
+    left: 0px;
+    text-align: center;
+    padding: 10px 0;
+}
+.u-order-qrcode:hover .icon-arrow{
+	transform:rotate(180deg);
+	transition:transform 0.5s;
+}
+.u-order-qrcode:hover .order-qrcode-btn{
+	border-bottom-color:#fff; 
+}
+.u-order-qrcode:hover .dropdown-panel{
+	display: block;
+}
+.order-note{
+	color: #999;
+	margin: 10px 0;
+	font-size: 14px;
+}
+.order-btn{
+	background: #ff9419;
+    border-radius: 1px;
+    cursor: pointer;
+    color: #fff;
+    font-family: "microsoft yahei";
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    width: 130px;
+    float: left;
+    border:1px solid #FF6901;
+}
+.order-btn a{
+	color: #fff;
+    font-size: 18px;
+
+}
+.order-btn:hover{
+	background:#FF6901;
+}
+.u-order-tip-around{
+	margin-bottom: 15px;
+	padding-left: 80px;
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+	background: #f4f5f6;
+	font-size: 14px;
+}
+.u-order-tip-around a{
+	font-size: 14px;
+	color: #666;
+	margin-right: 5px;
+	padding-left: 18px;
+	background: url(../img/bg_focus.png) no-repeat;
+}
+.u-order-tip-around .guanzhu{
+	background-position: 0 -4px;
+}
+.u-order-tip-around .guanzhu:hover{
+	color: #f80;
+	background-position: 0 -48px;
+}
+.u-order-tip-around .duibi{
+	background-position: 0 -26px;
+}
+.u-order-tip-around .duibi:hover{
+	color: #f80;
+}
+.xingcheng{
+	margin: 0 0 20px 20px;
+}
+.xingcheng>span.tit{
+	color: #666;
+}
+.xingcheng span.neirong{
+    color: #bbb;
+    font-weight: bold;
+    font-family: Tahoma;
+    line-height: 26px;
+}
+.xingcheng span em {
+    border: 1px solid #ddd;
+    color: #666;
+    display: inline-block;
+    font-family: "microsoft yahei";
+    line-height: 20px;
+    margin: 0 2px;
+    max-width: 60px;
+    overflow: hidden;
+    padding: 0 3px;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: normal;
+}
+.xingcheng span a{
+	color: #2e9900;
+    font-family: Tahoma;
+}
+.phk-book{
+	width: 435px;
+    font-family: "microsoft yahei";
+}
+.phk-book p{
+	color: #289d47;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 27px;
+    background: url(../img/tour_icon.png) no-repeat -280px -30px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.recombox {
+    overflow: hidden;
+    background: #fff;
+    padding: 0px 10px 0 20px;
+    font-size: 14px;
+    height: 96px;
+    width: 400px;
+}
+#recomInnerBox{
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+
+/*右边下面主要内容*/
+.mc-info{
+	width: 1000px;
+	margin-bottom: 40px;
+}
+.pkg-detail-wrap{
+	height: 44px;
+	position: relative;
+	top:1px;
+}
+.tabcn{
+	background-color: #fafafa;
+    height: 41px;
+    line-height: 41px;
+    border: 1px solid #dcddde;
+    border-bottom: 2px solid #4db620;
+    width: 1000px;
+    position: static;
+    top: 0;
+    z-index: 99;
+}
+.tab{
+	float: left;
+}
+.tab li{
+    display: inline;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    overflow: visible;
+    border-right: 1px solid #dcddde;
+    height: 41px;
+    line-height: 41px;
+}
+.tab li a {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    font: 400 14px "Microsoft Yahei";
+    line-height: 41px;
+    padding: 0 6px;
+}
+.tab li.current a {
+    height: 40px;
+    border-top: 1px solid #42b312;
+    border-right: 0 none;
+    background-color: #42b312;
+    color: #fff;
+    font-size: 14px;
+}
+.booknow {
+    float: right;
+    margin-right: 30px;
+}
+.booknow a{
+	width: 100px;
+	height: 30px;
+	margin-top: 6px;
+	border-radius: 1px;
+	background: #ff9419;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+.pkg-detail-con{
+	border: 1px solid #dcddde;
+    padding: 0 30px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.pkg-detail-infor {
+    padding: 20px 0 10px 0;
+}
+.yhhd .shuxie {
+    font-size: 18px;
+    font-family: 微软雅黑;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.yhhd .shuxie .sx {
+    width: 4px;
+    height: 18px;
+    display: inline-block;
+    background-color: #e58821;
+    top: 3px;
+    position: relative;
+    margin-right: 6px;
+    color: #333;
+}
+.yhhd-detail{
+	margin-bottom: 25px;
+}
+.yhhd-table{
+	width: 100%;
+	border:1px solid #e8e8e8;
+	border-bottom: 0;
+}
+.yhhd-table li{
+	padding: 20px 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+.yhhd-table li.col-col{
+	padding: 0;
+}
+.yhhd-table li .col {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    color: #666;
+}
+.yhhd-table li span:first-child {
+    padding-left: 45px;
+    text-align: left;
+}
+.yhhd-table li .col1-1 {
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #333;
+}
+.yhhd-table li .col2-1 {
+    width: 243px;
+    text-align: center !important;
+}
+.yhhd-table li .col2-2 {
+    width: 286px;
+}
+.yhhd-table li .col2-3 {
+    width: 220px;
+}
+.yhhd-table li .col1 {
+    width: 216px;
+    padding-right: 20px;
+}
+.yhhd-table li span label.zj-img {
+    display: inline-block;
+    margin-left: -26px;
+    height: 25px;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 25px;
+    background: url(../img/jiuzhounian.png) no-repeat;
+    background-position: -4px -113px;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+.yhhd-table li .col2 {
+    width: 190px;
+}
+.yhhd-table li .col3 {
+    width: 96px;
+}
+.yhhd-table li span a.zjdetail {
+	font-size: 14px;
+    color: #42b312;
+}
+.yhhd-table li .col4 {
+    width: 220px;
+}
+.yhhd-table li .col5 {
+    width: 135px;
+}
+.yhhd-table li span a.lingqu {
+    display: inline-block;
+    width: 95px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #fc893d;
+    border: 1px solid #fc893d;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.acorn{
+	padding: 20px 0px 10px;
+    background: #fffcf7;
+    border: 1px solid #fff5ec;
+    margin-bottom: 15px;
+    position: relative;
+}
+.acorn-tip{
+	position: absolute;
+    width: 83px;
+    height: 25px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    top: -5px;
+    left: -5px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: 0 -689px;
+}
+.discount-rec .acorn dl {
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    float: left;
+}
+.discount-rec .acorn dl dt{
+	float: left;
+	color: #999;
+	font-weight: bold;
+	font-size: 14px;
+}
+.discount-rec .acorn dl dd{
+	width: 860px;
+	color: #666;
+	line-height: 24px;
+	float: left;
+	font-size: 14px;
+}
+.discount-rec .acorn dl dd u strong{
+	font-size: 14px;
+	font-weight: normal;
+}
+.discount-rec .acorn dl dd u strong span{
+	font-size: 14px;
+	font-weight: normal;
+}
+.discount-rec .acorn dl dd strong span{
+	font-size: 14px;
+	font-weight: normal;
+}
+.cred {
+    color: red;
+    font-size: 14px;
+}
+
+/*产品特色*/
+.detail-title{
+    border-bottom: 2px solid #2E9900;
+    height: 27px;
+    margin-bottom: 20px;
+}
+.detail-title span{
+	position: relative;
+    bottom: -2px;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    width: 190px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+}
+.cpts .detail-title span{
+	background-position: 0 -770px;
+}
+.section-box{
+	position: relative;
+    margin-bottom: 20px;
+    padding: 0;
+    background: #fff;
+}
+.section-box-body{
+	padding: 0;
+}
+.section-feature-block {
+    margin-bottom: 30px;
+}
+.section-feature-title{
+	margin-bottom: 10px;
+	color: #111;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.s-f-item{
+	color: #333;
+	font-size: 14px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.s-f-item ul li{
+	position: relative;
+	font-size: 14px;
+}
+.s-f-i-list-title{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 75px;
+	font-size: 14px;
+}
+.s-f-i-list-content{
+	margin-left: 75px;
+	font-size: 14px;
+}
+.line-detail-intro .detail-title span {
+    background-position: 0 -41px;
+}
+.tripdate {
+    width: 940px;
+    position: relative;
+}
+.tripItinerary{
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    /*color: #404040;*/
+    line-height: 24px;
+    margin: 0 0 10px 0;
+    padding: 5px 10px;
+}
+.tripcontent{
+	margin-top: 10px;
+}
+.tripcontent .fache-con{
+	margin-bottom: 30px;
+}
+.tripcontent .fache-con-tit {
+    height: 35px;
+    line-height: 35px;
+    background: #fafafa;
+    border: 1px solid #eaeaea;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    top: -1px;
+}
+.tripcontent .fache-con-tit span{
+	color: #2e9900;
+	float: left;
+	font-size: 14px;
+}
+.tripcontent .fache-con-tit a{
+	font-size: 14px;
+    color: #2e9900;
+    font-weight: normal;
+    font-family: "microsoft yahei";
+    margin-right: 18px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: -99px -682px;
+    padding-left: 23px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.tripcontent .no-border-b {
+    border-bottom: 0 none;
+}
+.fache-con-con{
+    border: 1px solid #eaeaea;
+    background: #fff;
+    border-top: 0 none;
+    padding: 10px 20px;
+    font: 14px "microsoft yahei";
+    line-height: 24px;
+    color: #666;
+}
+.face-con-tab{
+	padding: 0;
+}
+.fache-tip{
+	height: 38px;
+    line-height: 38px;
+    background: #fffceb;
+    border: 1px solid #fedbb3;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.icon-tip {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: 0 -470px;
+    vertical-align: -2px;
+    margin-right: 3px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table th {
+    color: #999;
+    border-bottom: 1px solid #ededed;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+}
+table .time{
+	text-align: center;
+}
+table td{
+	padding:5px 10px;
+	font-size: 14px;
+}
+.face-con-tab table td{
+	font-size: 14px;
+	border-top: 1px dashed #ededed;
+}
+.tripcontent .fache-con-con dl {
+    position: relative;
+    padding-left: 90px;
+    font-size: 14px;
+}
+.tripcontent .fache-con-con dl dt {
+    width: 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+.tripcontent .fache-con-con dl dd{
+	font-size: 14px;
+}
+.tripall{
+	position: relative;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    border-top: 0 none;
+    padding: 30px 0 30px 0;
+    font: 14px/24px "microsoft yahei";
+    color: #666;
+}
+.sidebarPrv {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 100px;
+}
+.sidebar {
+    width: 57px;
+}
+.daybox {
+    width: 57px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    background: #ddd;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    border-radius: 1px;
+    margin-bottom: 5px;
+}
+.tripall .current {
+    color: #fff;
+    background: #68cc3d;
+}
+.tripdays{
+	border-left: 2px solid #eaeaea;
+    margin-left: 156px;
+    position: relative;
+    margin-right: 20px;
+}
+.tripdays-con{
+    position: relative;
+    padding-left: 44px;
+}
+.tripdays-con dt {
+    position: relative;
+    left: -63px;
+}
+.tripIcon-day {
+    width: 34px;
+    height: 38px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: 0 -715px;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #fff;
+    line-height: 33px;
+}
+.tripdays-con dd {
+    width: 720px;
+}
+.tripIcon {
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+.dayway-tit {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    color: #333;
+    font-size:20px;
+    font-family: "microsoft yahei";
+}
+.dayway-tit b{
+    color: #2e9900;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.dayway-tit span{
+	font-size: 20px;
+}
+.dayway-tit span img{
+	padding: 0 5px;
+}
+.line-border{
+	border-bottom: 1px dotted #ddd;
+    padding: 20px 0;
+}
+.tripIcon {
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+.tripIcon-timebg {
+    width: 55px;
+    height: 21px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: -78px -510px;
+    color: #999;
+    font-weight: bold;
+    left: -50px;
+}
+.tripIcon-time {
+    width: 12px;
+    height: 20px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: -77px -532px;
+    left: 12px;
+}
+.tripdays .pp {
+    color: #404040;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+.line-border{
+	border-bottom: 1px dotted #ddd;
+    padding: 20px 0;
+}
+.line-border .city-pic li{
+	float: left;
+    width: 320px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.city-pic .city-pic-con {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    text-align: left;
+}
+.city-pic .city-pic-con img{
+	width: 320px;
+	height: 280px;
+}
+.tripdays .city-pic li span {
+    text-align: center;
+    color: #404040;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+}
+.hb-des dl {
+    padding: 5px 0;
+}
+.tripIcon-sc {
+    width: 12px;
+    height: 22px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: -44px -533px;
+    left: 12px;
+    top: 4px;
+}
+.tripIcon-zs{
+	width: 12px;
+    height: 22px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: -60px -533px;
+    left: 12px;
+    top: 4px;
+}
+.hb-des dd label {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "microsoft yahei";
+    color: #666;
+    margin-right: 10px;
+    text-align: left;
+    line-height: 24px;
+}
+.hb-des dd .tripday-des{
+	font-size: 14px;
+    font-family: "microsoft yahei";
+    color: #666;
+    line-height: 24px;
+}
+.tripall-end{
+	width: 12px;
+    height: 9px;
+    background: url(../img/general_infor_theme.png) no-repeat;
+    background-position: -119px -537px;
+    position: absolute;
+    bottom: -2px;
+    left: 131px;
+}
+.btcircle {
+    width: 710px;
+    line-height: 20px;
+    margin-left: 180px;
+    color: #f60;
+    padding-left: 0px;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+.feiyong .detail-title span {
+    background-position: 0 -143px;
+}
+.detail-sub-title {
+    height: 30px;
+    margin-top: 30px;
+    padding-left: 12px;
+    color: #2E9900;
+    font: 400 16px/30px "Microsoft Yahei";
+    background-color: #f8f9f8;
+}
+.f_4e9700 {
+    color: #4e9700;
+    font-weight: bold;
+}
+.detail-sub-title i {
+    float: left;
+    display: inline;
+    height: 15px;
+    width: 4px;
+    margin: 8px 5px 0 0;
+    font-size: 0;
+    line-height: 0;
+    background-color: #8bca70;
+}
+.contract-con{
+	padding: 10px 0px 0 10px;
+    margin: 0 auto;
+    color: #666;
+    overflow: hidden;
+    line-height: 26px;
+    font-size: 14px;
+}
+.feiyong p span,.feiyong p a{
+	font-size: 14px;
+    font-family: "microsoft yahei";
+}
+.f_f60{
+	color: #f60;
+	font-size: 14px;
+}
+.remark-1000{
+	width: 940px;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #666;
+}
+.remark-1000 .detail-title span {
+    background-position: 0px -245px;
+}
+.three-cols{
+	border: 1px solid #e7e7e7;
+    padding: 20px 0 15px;
+}
+.three-cols .col-1 {
+    width: 240px;
+    float: left;
+    height: 70px;
+}
+.col-1 .comment_num {
+    font-size: 35px;
+    font-weight: bold;
+    color: #f80;
+    display: block;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 10px;
+}
+.col-1 .comment_num em {
+    font-size: 42px;
+    font-weight: bold;
+    font-style: normal;
+}
+.col-1 .des {
+    color: #999;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+.three-cols .col-2 {
+    width: 380px;
+    float: left;
+    height: 70px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+.prod_dianping{
+	padding-left: 55px;
+}
+.prod_dianping p{
+	color: #666;
+	font-size: 14px;
+}
+.prod_dianping em {
+    color: #f80;
+    font-size: 18px;
+    font-family: Tahoma;
+    font-style: normal;
+}
+.three-cols .col-3{
+	width: 310px;
+	float: left;
+    height: 70px;
+}
+.rep_comment p {
+    text-align: center;
+    margin: 0;
+    color: #999;
+    font-size: 14px;
+}
+.rep_comment p.btn{
+	margin: 10px 0 0;
+}
+.rep_comment .btn a {
+    display: block;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: #42b312;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.hot-style {
+    border: 1px solid #e7e7e7;
+    border-top: 0 none;
+    padding: 15px 0 10px;
+    background: #fafafa;
+}
+.hot-style h3 {
+    float: left;
+    width: 100px;
+    display: inline;
+    text-align: center;
+    color: #666;
+    margin: 2px 0 0;
+    font-size: 12px;
+    padding-left: 0;
+    background: none;
+    font-weight: normal;
+}
+.prod_classify {
+    width: 690px;
+    float: left;
+}
+.hot-style li {
+    float: left;
+    margin: 0 5px 5px 0;
+    position: relative;
+}
+.hot-style li a {
+    background: #ff923c;
+    border: 0 none;
+    color: #fff;
+    padding: 0 10px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.fliter-comment{
+	margin: 10px 0 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+}
+.fliter-comment li {
+    float: left;
+    color: #dadada;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.fliter-comment li span {
+    text-indent: 5px;
+    display: inline-block;
+    color: #666;
+    padding: 4px 3px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.fliter-comment li span em{
+	font-style: normal;
+	font-weight: normal;
+    font-size: 14px;
+}
+.fliter-comment li span.current {
+    color: #fff;
+    background: #2e9900;
+}
+.fliter-comment li.filter_by_pic {
+    padding: 5px 0 0 50px;
+    color: #666;
+}
+.fliter-comment .filter_by_pic input {
+    position: relative;
+    top: 2px;
+}
+.fliter-comment .filter_by_pic label{
+	font-size: 14px;
+}
+.comment-lists li.comment-li {
+    padding: 10px 0 15px;
+    border-bottom: 1px dotted #d2d6d0;
+    overflow: visible;
+}
+.comment-lists dt {
+    width: 110px;
+    text-align: center;
+    float: left;
+}
+.comment-lists dt .trav_pic {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: 8px 0 5px 20px;
+}
+.comment-lists dt .inner_trav_pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.comment-lists dt img {
+    width: 66px;
+    height: 66px;
+}
+.comment-lists dt .trav_pic_level {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(../img/prod_3.png) no-repeat;
+}
+.comment-lists dt .trav_pic_level1 {
+    background-position: -15px -408px;
+}
+.comment-lists dt .trav_pic_level2 {
+    background-position: -45px -408px;
+}
+.comment-lists dt .trav_name {
+    color: #666;
+    font-size: 12px;
+}
+.comment-lists dt .trav_name:hover a{
+    color: #f80;
+    text-decoration: underline;
+}
+.comment-lists dt .trav_type {
+    color: #f80;
+    font-size: 12px;
+}
+.comment-lists dd {
+    width: 820px;
+    position: relative;
+    float: left;
+}
+.comment-lists .clists_main_cont {
+    width: 676px;
+    min-height: 74px;
+}
+.comment-lists .clists_words {
+    background: #f3f8f0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 21px;
+    /*height: 24px;*/
+}
+
+.clists_words span {
+    display: block;
+    float: left;
+    color: #666;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+    background-color: #f3f3f3;
+    font-size: 14px;
+}
+.clists_words .icon_manyi {
+    width: 28px;
+    height: 15px;
+    display: inline-block;
+    background: url(../img/prod_3.png) no-repeat;
+    background-position: 0 -348px;
+    padding: 0;
+    margin: 5px 0 0 10px;
+}
+.comment-lists .clists_words span em {
+    color: #666;
+    padding-left: 5px;
+    font-style: normal;
+    font-size: 14px;
+}
+.comment-lists .comment_detail {
+    line-height: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.comment-lists .comment_from {
+    margin-top: 8px;
+}
+.comment-lists .comment_from dt {
+    width: 500px;
+    text-align: left;
+    color: #999;
+    font-size: 14px;
+}
+.comment-lists .comment_from dt a {
+    color: #999;
+    font-size: 14px;
+}
+.comment-lists .comment_from dt span {
+    color: #2e9700;
+    font-size: 14px;
+}
+.comment-lists .from_app {
+    background: url(../img/prod_3.png) no-repeat;
+    background-position: 0 -506px;
+    margin-left: 5px;
+    padding-left: 13px;
+}
+.comment_prec {
+    width: 105px;
+    color: #f80;
+    font-family: "microsoft yahei";
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-color: #fff;
+}
+.myorder_prec_box {
+    border: none;
+}
+.comment_prec .comment_prec_box {
+    font-size: 12px;
+    font-family: "宋体";
+    border: 1px solid #ffd29f;
+    width: 101px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.comment_prec p {
+    padding: 0px 8px;
+    font-weight: bold;
+    font-family: 宋体;
+    line-height: 18px;
+}
+.comment_prec .cp_tt {
+    width: 101px;
+    height: 18px;
+    background: url(../img/prod_3.png) no-repeat;
+    background-position: 0 -483px;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    font-weight: normal;
+}
+.comment_prec p span {
+    color: #666;
+    font-weight: 400;
+    font-family: 宋体;
+}
+.comment_l{
+	line-height: 24px;
+    padding-left: 76px;
+    color: #666;
+    font-size: 14px;
+}
+.comment_l span {
+    color: #999;
+    margin-left: -76px;
+    font-size: 14px;
+}
+.pic_lists{
+	margin: 15px 0;
+	width: 690px;
+}
+.sp_content{
+	width: 645px;
+	float: left;
+	height: 75px;
+	overflow: hidden;
+	position: relative;
+}
+.slidy_pic{
+	width: 162px;
+}
+.slidy_pic li{
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-right: 6px;
+}
+.slidy_pic li img{
+	display: block;
+	width: 75px;
+	height: 75px;
+}
+.pagination{
+	height: 40px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #404040;
+	margin: 15px auto;
+}
+.page-bottom{
+	float: right;
+}
+.page-start,.page-cur,.pagination a,.page-break{
+	height: 22px;
+	padding: 6px 10px 0;
+	line-height: 16px;
+	float: left;
+	margin: 0 3px;
+	color: #404040;
+}
+.page-start{
+	color: #ddd;
+	border: 1px solid #ddd;
+	cursor: default;
+	float: left;
+	margin: 0 3px;
+}
+.page-cur{
+	background-color: #c7e7ab;
+	border:1px solid #c7e7ab;
+}
+.pagination a{
+	border:1px solid #c7e7ab;	
+}
+.pagination a:hover{
+	background-color: #c7e7ab;
+}
+.page-break{
+	padding: 0 4px;
+}
+.aroundpro .detail-title{
+	height: 33px;
+}
+.aroundpro .detail-title span{
+	background-position: 0 -272px;
+}
+.recommandpro{
+	margin-bottom: 10px;
+}
+.recommandpro .detail-sub-title{
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+.morecity{
+	float: right;
+	color: #d8d8d8;
+}
+.morecity a{
+	margin: 0 6px 0 2px;
+	display: inline-block;
+	float: none;
+	color: #2e9900;
+}
+.morecity a:hover{
+	color: #f80;
+	text-decoration: underline;
+}
+.recommandpro ul{
+	width: 105%;
+	margin: 5px 0 15px 0;
+	overflow: hidden;
+}
+.recommandpro ul li{
+	width: 220px;
+	margin-right: 19px;
+	float: left;
+	display: inline;
+	position: relative;
+}
+.recommandpro ul li>a{
+	display: block;
+	width: 220px;
+	height: 125px;
+	overflow: hidden;
+}
+.recommandpro ul li>a img{
+	width: 220px;
+	display: inline;
+}
+.probg{
+	width: 220px;
+	height: 28px;
+	position: absolute;
+	left: 0;
+	top:97px;
+	background-color: #000;
+	opacity: 0.6;
+}
+.proname{
+	width: 204px;
+	height: 28px;
+	position: absolute;
+	left: 0;
+	top:93px;
+	padding: 0 8px;
+	margin-top: 7px;
+	line-height: 22px;
+}
+.proname a{
+	float: left;
+	font-size: 16px;
+	color: #fff;
+}
+.proname a:hover{
+	color: #f80;
+	text-decoration: underline;
+}
+.proname span{
+	float: right;
+	font-size: 12px;
+	color: #bbb;
+}
+.recommandpro ul li .price{
+	color: #f80;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	width: 215px;
+    height: 34px;
+    background: #f2f2f2;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 5px;
+}
+.recommandpro ul li .price i{
+	font-style:normal;
+	vertical-align: 4px;
+}
+.recommandpro ul li .price b{
+	font-size: 16px;
+}
+/*右边*/
+.side-content{
+	width: 190px;
+	float: right;
+	display: block;
+}
+.m-team-tour-3{
+	padding: 10px;
+	border:1px solid #eaeaea;
+	margin-bottom: 10px;
+	height: 125px;
+	background: url(../img/team_tour_bg.jpg) no-repeat 0 0;
+}
+.m-team-tour-3 h5 {
+    font-size: 16px;
+    line-height: 36px;
+    color: #333;
+    font-family: "microsoft yahei";
+    font-weight: normal;
+}
+.m-team-tour-3 p{
+	line-height: 1.5;
+}
+.m-team-tour-3 p span{
+	color: #f60;
+}
+.m-team-tour-3 a{
+	display: inline-block;
+    width: 67px;
+    line-height: 24px;
+    height: 24px;
+    background: #fc893d;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.block {
+    padding: 5px 0 10px;
+    border: 1px solid #E6E6e6;
+}
+.side-content .block {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+}
+.block h3{
+	color: #333;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-weight: normal;
+	position: relative;
+}
+.tuijian{
+	padding: 11px 9px 5px;
+}
+.tuijian ul li.last{
+	border-bottom: 0 none;
+}
+.hot_line li {
+    border-bottom: 1px dotted #ddd;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.hot_line .pic {
+    width: 0px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+}
+.hot_line li.cur .pic{
+	width: 70px;
+}
+.hot_line li.cur .pic img{
+	height: 50px;
+	display: inline;
+}
+.hot_line .des {
+    width: 125px;
+    float: left;
+    display: inline;
+    margin-left: 25px;
+}
+.hot_line li.cur .des {
+    width: 82px;
+    margin-left: 8px;
+}
+.name {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+.hot_line .des .name {
+    position: relative;
+    top: -2px;
+    max-height: 36px;
+    overflow: hidden;
+    line-height: 18px;
+}
+.hot_line .des .name a:hover{
+	color: #f80;
+	text-decoration: underline;
+}
+.hot_line .des .name a {
+    color: #666;
+    font-family: "microsoft yahei";
+}
+.hot_line li.cur .des .name a {
+    color: #f80;
+    text-decoration: underline;
+}
+.hot_line .des .price {
+    color: #f60;
+    font-family: "microsoft yahei";
+}
+.hot_line .des .price em{
+	font-style: normal;
+	font-weight: normal;
+}
+.hot_line .num {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    background: #ff9a00;
+    color: #fff;
+    font-weight: bold;
+    left: 0;
+    top: 0;
+}
+.block h3 a {
+    color: #999;
+    font-size: 12px;
+    float: right;
+    display: inline;
+    margin-right: 10px;
+    position: absolute;
+    top: 5px;
+    right: -5px;
+}
+.rc_index .rc_wd{
+	width: 12px;
+    color: #999;
+    margin-left: 14px;
+}

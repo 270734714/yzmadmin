@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>会员注册 - 途牛旅游网</title>
+	<meta name="description" content="途牛旅游网：中国最大的旅游行业在线电子商务网站，为您提供最为周到的旅游服务。途牛旅游网" />
+	<meta name="keywords" content="会员注册" />
+    <link rel="shortcut icon" href="__PUBLIC__/home/public/img/2016-10-29_202044.png">
+	<link rel="stylesheet" href="__PUBLIC__/home/public/css/zhuce.css">
+	<script src="__PUBLIC__/home/public/js/jquery.min.js"></script>
+	<script src="__PUBLIC__/home/public/js/zhuce.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="header-bg">
+			<div class="logo">
+				<div class="logocon">
+					<a href="./index.html"><img src="__PUBLIC__/home/public/img/logv2.png"></a>
+				</div>
+				<p class="header-tip">欢迎注册</p>
+			</div>
+		</div>
+	</div>
+	<div class="allwrap">
+		<div class="main-top">
+			<div class="main-top-left">
+				<span></span>
+			</div>
+			<div class="main-top-right">
+				已有途牛账号了?<a href="{:U('index')}">登录</a>
+			</div>
+		</div>
+		<div class="user-reg">
+			<div class="reg-field">
+				<form action="{:U('insert')}" method="post">
+					<p>
+						USER：
+						<input type="text" name="name" id="">
+					</p>
+					<p>
+						PASS：
+						<input type="password" name="pass" id="">
+					</p>
+					<p>
+						REPASS：
+						<input type="password" name="repass" id="">
+					</p>
+					<p>
+						code:
+						<input type="text" name="code" id="">
+					</p>
+					<p>
+						<img src="{:U('Login/yzm')}" onclick="this.src='{:U('Login/yzm',array('id'=>rand()))}'" alt="">
+					</p>
+					
+					<p>
+						<input type="submit" value="注册	">
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

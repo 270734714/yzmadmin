@@ -1,0 +1,111 @@
+.detail_sub_title{
+    height: 30px;
+    padding-left: 20px;
+    color: #333;
+    font: 600 16px/30px "Microsoft Yahei";
+}
+.detail_sub_title i {
+    float: left;
+    display: inline;
+    height: 15px;
+    width: 4px;
+    margin: 8px 5px 0 0;
+    font-size: 0;
+    line-height: 0;
+    background-color: #37c249;
+}
+.common_div {
+    padding: 10px 10px 10px 30px;
+}
+table td {
+    color: #666;
+}
+table input.txt-m {
+    background: #fff;
+    border: 1px solid #ddd;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px;
+    vertical-align: middle;
+    width: 190px;
+    color: #666;
+}
+.err{
+    background: url(../img/error.png) no-repeat 0 50%;
+}
+.input-tip {
+    margin: 0 0 0 10px;
+    color: #666;
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    position: relative;
+    vertical-align: middle;
+}
+.input-tip-inner {
+    padding-left: 20px;
+    display: none;
+    margin-right: 10px;
+}
+.pass_tip {
+    float: left;
+    color: #333;
+    position: relative;
+    top: 11px;
+}
+.icon_pass_tip {
+    display: inline-block;
+    height: 16px;
+    background: url(../img/user_icon.png) no-repeat;
+    background-position: 0 -504px;
+    line-height: 14px;
+    padding-left: 20px;
+}
+.icon_pass_tip_con {
+    width: 180px;
+    padding: 5px 10px;
+    background: #fffceb;
+    border: 1px solid #ffdbb2;
+    color: #666;
+    line-height: 22px;
+    position: absolute;
+    left: 133px;
+    top: -22px;
+    display: none;
+}
+.z, .y {
+    position: absolute;
+    top: 16px;
+}
+.z {
+    color: #fffceb;
+    font-size: 19px;
+    left: -8px;
+    z-index: 3;
+}
+.y {
+    color: #ffdbb2;
+    font-size: 19px;
+    left: -10px;
+    z-index: 1;
+}
+.txt-grey {
+    color: #bbb;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.yellow_btn {
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    background: #ff9419;
+    font: bold 16px/30px "microsoft yahei";
+    padding: 0 20px;
+    color: #fff;
+    border: 0 none;
+    cursor: pointer;
+}
+input:focus{
+    outline-width: 0px;
+}

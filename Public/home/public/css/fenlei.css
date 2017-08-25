@@ -1,0 +1,433 @@
+/*.wrapper{
+	width: 100%;
+}*/
+.top_banner {
+    margin: 0 auto 60px auto;
+    position: relative;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+}
+.top_banner .picture_box {
+    margin: 0 auto;
+}
+.top_banner .picture_box img {
+    border: 0px;
+    height: 500px;
+}
+.recommend_floor{
+    margin: 0 auto;
+    width: 1160px;
+    height: 592px;
+    position: relative;
+    left: 15px;
+    padding: 74px 5px 5px 25px;
+    background: url(../img/zhuanxiang_bg.png) no-repeat;
+}
+.recommend_floor .recommemd_item_box {
+    width: 1160px;
+    height: 592px;
+    margin: 0;
+    padding: 0;
+}
+.recommend_floor .recommemd_item_box .cell_item {
+    width: 560px;
+    height: 276px;
+    margin: 0 20px 20px 0;
+    float: left;
+    position: relative;
+}
+.recommend_floor .cell_item .cell_top_part{
+    width: 560px;
+    height: 214px;
+    position: relative;
+}
+.recommend_floor .cell_top_part .picture_box {
+    position: relative;
+    width: 560px;
+    height: 214px;
+} 
+.recommend_floor .picture_box a img {
+    border: 0px;
+    width: 560px;
+    height: 214px;
+    display: inline;
+}
+.recommend_floor .cell_top_part .salepoints {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.recommend_floor .salepoints .salepoint {
+    background: #000;
+    opacity: 0.8;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    padding: 2px 11px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.recommend_floor .title_text {
+    z-index: 3;
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+    width: 390px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.point_tag_1 {
+    width: 42px;
+    height: 18px;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    background: #53b7ff;
+}
+.recommend_floor .cell_top_part .price_panel {
+    z-index: 3;
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 11px;
+}
+.recommend_floor .price_panel .new_price_box {
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    background: #ff8800;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+.recommend_floor .new_price_box .rmb_tag {
+    font-size: 11px;
+    display: inline-block;
+}
+.recommend_floor .price_value {
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+}
+.recommend_floor .price_tailtext {
+    font-size: 11px;
+    display: inline-block;
+}
+.recommend_floor .old_price_box {
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    background: #4a545f;
+    text-align: center;
+}
+.recommend_floor .discount_box {
+    color: #fbb371;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.recommend_floor .discount_val{
+    font-size: 15px;
+}
+.recommend_floor .cell_bottom_part {
+    width: 530px;
+    height: 35px;
+    background: #fff;
+    padding: 10px 20px 15px 10px;
+    position: relative;
+}
+.recommend_floor .salepoints {
+    width: 400px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.recommend_floor .btn_panel {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.recommend_floor .order_btn {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    vertical-align: bottom;
+    display: inline-block;
+    color: #ff5522;
+    height: 35px;
+    width: 100px;
+    border: 1px solid #ff5522;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+}
+.recommend_floor .btn_panel .order_btn:hover{
+	color: #fff;
+	background-color: #ff5522;
+	cursor: pointer;
+}
+
+/*出境跟团*/
+.event_floor {
+    margin: 0 auto;
+    width: 1160px;
+}
+.event_floor .event_floor_item {
+    width: 1192px;
+    margin-top: 30px;
+}
+.event_floor .event_floor_item .title_bar_box {
+    margin-bottom: 20px;
+    display: flex;
+}
+.event_floor .event_floor_item .title_bar_box .title_icon {
+    height: 32px;
+    margin-right: 20px;
+}
+.event_floor .event_floor_item .title_bar_box .title_bar {
+    height: 27px;
+    width: 100%;
+    border-bottom: 3px solid #ff5522;
+}
+.event_floor .event_floor_item .grid_item_box {
+    width: 1217px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.event_floor .cell_item {
+    width: 380px;
+    height: 335px;
+    margin-right: 25px;
+    margin-top: 20px;
+    float: left;
+    position: relative;
+}
+.event_floor .cell_top_part {
+    width: 380px;
+    height: 214px;
+    position: relative;
+}
+.event_floor .picture_box {
+    position: relative;
+    width: 380px;
+    height: 214px;
+}
+.event_floor .picture_box img {
+    border: 0px;
+    width: 380px;
+    height: 214px;
+    display: inline;
+}
+.cell_top_part_discount {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 60px;
+    height: 40px;
+    background: url(../img/zhuanxiang_sprit.png) no-repeat -107px -95px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+.cell_top_part_discount span{
+	font-size: 16px;
+}
+.event_floor .cell_top_part .salepoints {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+.event_floor .salepoints .salepoint {
+    background: #000000;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    padding: 2px 11px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.event_floor .cell_bottom_part {
+    width: 350px;
+    height: 100px;
+    background: #fff;
+    padding: 10px 15px 15px 15px;
+}
+.event_floor .title_text {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    width: 100%;
+    line-height: 1.5;
+	margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.event_floor .cell_bottom_part .salepoints {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.event_floor .cell_bottom_part .btn_panel {
+    position: absolute;
+    bottom: 10px;
+    height: 40px;
+    width: 358px;
+    line-height: 40px;
+}
+.event_floor .cell_bottom_part .btn_panel .price_box {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 40px;
+}
+.event_floor .price_box .new_price {
+    color: #ff6600;
+    display: inline-block;
+}
+.event_floor .cell_bottom_part .btn_panel div {
+    display: inline-block;
+}
+.event_floor .price_box .new_price .price_value {
+    font-size: 22px;
+    font-weight: bold;
+}
+.event_floor .cell_bottom_part .btn_panel div {
+    display: inline-block;
+}
+.event_floor .cell_bottom_part .btn_panel .order_btn {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    vertical-align: middle;
+    color: #ff5522;
+    height: 35px;
+    width: 100px;
+    border: 1px solid #ff5522;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+}
+.event_floor .btn_panel .order_btn:hover{
+	color: #fff;
+	background-color: #ff5522;
+	cursor: pointer;
+}
+.event_floor .cell_item:hover{
+	box-shadow: 0px 4px 8px 2px #f6e2cc;
+}
+
+
+/*侧边栏*/
+.navsider_container {
+    width: 90px;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+    margin: -322px 0 0 650px;
+    height: 247px;
+    z-index: 100;
+}
+.navsider_container .nav_head_icon {
+    height: 29px;
+    text-align: center;
+}
+.navsider_container .nav_head_icon img {
+    border: 0px;
+    width: 74px;
+    height: 30px;
+}
+.navsider_container .nav_link_box {
+    background: #ff5522;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.navsider_container .nav_link_box .nav_title {
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-left: -3px;
+    background: url(../img/sider_zhuanxiang.png) no-repeat center;
+}
+.navsider_container .nav_link_box .nav_dot {
+    border-bottom: 1px dashed white;
+    margin: 0px 5px;
+}
+.nav_link_box .nav_link_list {
+    padding-top: 10px;
+}
+.nav_link_list .nav_link {
+    padding: 4px 12px;
+    background: #d63c0e;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+ .nav_link.cur {
+    background: #ffffff;
+    color: #ff5522;
+    text-decoration: none;
+}
+.nav_info_box {
+    text-align: center;
+    border: 1px solid #ff5522;
+}
+.nav_info_box .weixin_title {
+    font-size: 12px;
+    margin: 5px auto;
+}
+.nav_info_box .tip {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-top: 1px dashed #a9a9a9;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+.nav_info_box .top {
+    margin: 0 auto 10px auto;
+    background: #040000;
+    width: 42px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 5px 10px 5px 10px;
+    font-size: 11px;
+}
+.nav_info_box .top a {
+    text-decoration: none;
+    background: #040000;
+    color: #ffffff;
+}
